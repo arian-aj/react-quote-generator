@@ -1,0 +1,13 @@
+.wrapper {
+    width: 70vw;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgb(168, 169, 218);
+    color: grey;
+}
+
+button {
+    border: 5px solid rgb(33, 83, 33);
+}
+

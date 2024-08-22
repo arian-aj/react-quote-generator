@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <h1>Hallo</h1>
+      <h1>Willkommen zum Quote Generator</h1>
       <QuoteGenerator />
     </>
   )

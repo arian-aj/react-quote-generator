@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import "./QuoteGenerator.css"
+
 
 export default function QuoteGenerator() {
 
@@ -34,7 +36,7 @@ export default function QuoteGenerator() {
 
 
     return (
-        <div>
+        <div className="wrapper">
             <strong>
                 {
                     randomNum !== null && quotesArray[randomNum] ? quotesArray[randomNum].quote : "Click the button to generate a quote"
